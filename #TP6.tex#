@@ -1,0 +1,27 @@
+\documentclass[12pt]{report}
+\usepackage[]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fullpage}
+\usepackage{coqdoc}
+\usepackage{amsmath,amssymb}
+\usepackage{url}
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% This file has been automatically generated with the command
+%% coqdoc -q -g --latex -o TP6.tex TP6.v 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\coqlibrary{TP6}{Library }{TP6}
+
+\begin{coqdoccode}
+\coqdocnoindent
+\coqdockw{Parameters} \coqdocvar{A} \coqdocvar{B} \coqdocvar{C} : \coqdockw{Prop}.\coqdoceol
+\coqdocemptyline
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Goal} \coqdocvar{A}\ensuremath{\rightarrow}\coqdocvar{B}\ensuremath{\rightarrow}\coqdocvar{A}.\coqdoceol
+\coqdocemptyline
+\coqdocnoindent
+\coqdockw{Goal} (\coqdocvar{A}\ensuremath{\rightarrow}\coqdocvar{B}\ensuremath{\rightarrow}\coqdocvar{C})->(\coqdocvar{A}\ensuremath{\rightarrow}\coqdocvar{B})->\coqdocvar{A}\ensuremath{\rightarrow}\coqdocvar{C}.\coqdoceol
+\coqdocemptyline
+\end{coqdoccode}
+\end{document}
